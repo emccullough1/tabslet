@@ -2,4 +2,8 @@
 console.log('OK');
 
 // Your Awesome Scripts
-$('body').fitVids();
+$('.tabs').tabslet({
+    mouseevent: 'hover',
+    attribute: 'href',
+    animation: false
+});
